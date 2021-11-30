@@ -181,9 +181,14 @@ fill:#46C3A1;
      animation: moveTotop 2s linear infinite;
 }
   @keyframes moveTotop {
+           80% {
+        transform: translateY(18px)  ;
+        opacity:0.8;
+      }
     
       100% {
         transform: translateY(18px)  ;
+        opacity:0;
       }
   
   
