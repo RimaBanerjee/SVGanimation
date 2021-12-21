@@ -1,10 +1,49 @@
-
-.svg{
- 
-    margin: auto;
-
-
-
+.svg {
+  margin: auto;
+}
+body {
+  font-family: Lato, sans-serif;
+  --col-deepblue: #4478e3;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+footer {
+  width: 100vw;
+  position: fixed;
+  bottom: 0px;
+}
+footer div {
+  background-color: var(--col-deepblue);
+  margin: -5px 0px 0px 0px;
+  padding: 0px;
+  color: #fff;
+  text-align: center;
+}
+svg {
+  width: 100%;
+  overflow: visible;
 }
 
+.wave {
+  animation: wave 3s linear;
+  animation-iteration-count: infinite;
+  fill: #000000;
+}
 
+#wave2 {
+  animation-duration: 5s;
+  animation-direction: reverse;
+  opacity: 0.8;
+}
+#wave3 {
+  animation-duration: 7s;
+  opacity: 0.5;
+}
+
+@keyframes wave {
+  to {
+    transform: translateX(-100%);
+  }
+}
