@@ -8,6 +8,32 @@
   </head>
 
   <body>
+    <!-- on scroll animation using js -->
+
+    <header class="container">
+      <h1>scroll animation</h1>
+      <h2>
+        Scroll to see the effects
+        <p class="animate-arrow">&darr;</p>
+      </h2>
+    </header>
+    <section class="scroll-container">
+      <div class="scroll-element js-scroll fade-in"></div>
+      <div class="scroll-caption">This animation fades in.</div>
+    </section>
+    <section class="scroll-container">
+      <div class="scroll-element js-scroll fade-in-bottom"></div>
+      <div class="scroll-caption">This animation slides in to the top.</div>
+    </section>
+    <section class="scroll-container">
+      <div class="scroll-element js-scroll slide-left"></div>
+      <div class="scroll-caption">This animation slides in from the left.</div>
+    </section>
+    <section class="scroll-container">
+      <div class="scroll-element js-scroll slide-right"></div>
+      <div class="scroll-caption">This animation slides in from the right.</div>
+    </section>
+
     <img src="./cartoon(1).svg" />
 
     <img src="./Soccer.svg" />
@@ -16,6 +42,7 @@
 
     <img src="./login_new1.svg" />
     <img src="./register.svg" />
+    <img src="./wave.svg" />
 
     <footer>
       <svg viewBox="0 0 120 28" xmlns="http://www.w3.org/2000/svg">
@@ -30,5 +57,6 @@
         <use id="wave2" class="wave" xlink:href="#wave" x="0" y="0"></use>
       </svg>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
